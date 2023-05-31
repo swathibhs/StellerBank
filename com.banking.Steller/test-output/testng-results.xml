@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T13:04:27 IST" name="Default suite" finished-at="2023-05-30T13:05:02 IST" duration-ms="35194">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T13:04:27 IST" name="Default test" finished-at="2023-05-30T13:05:02 IST" duration-ms="35194">
+      <class name="com.banking.Steller.Viewcustomer.ApplyDebitCardTest">
+        <test-method is-config="true" signature="cofig_BS()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:04:27 IST" name="cofig_BS" finished-at="2023-05-30T13:04:27 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofig_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:04:27 IST" name="config_BC" finished-at="2023-05-30T13:04:31 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:04:31 IST" name="config_BM" finished-at="2023-05-30T13:04:34 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="applyDebitCard()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:04:34 IST" name="applyDebitCard" finished-at="2023-05-30T13:05:00 IST" duration-ms="25226" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='gender']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14e81edd8d0fd67ca3b9564923d7a38e, findElement {using=name, value=gender}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Om\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61543/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e81edd8d0fd67ca3b9564923d7a38e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='gender']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14e81edd8d0fd67ca3b9564923d7a38e, findElement {using=name, value=gender}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Om\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61543/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14e81edd8d0fd67ca3b9564923d7a38e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.banking.StellerObjectRepository.DebitCardFormPage.enterDetailforDebit(DebitCardFormPage.java:65)
+at com.banking.Steller.Viewcustomer.ApplyDebitCardTest.applyDebitCard(ApplyDebitCardTest.java:163)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDebitCard -->
+        <test-method is-config="true" signature="confif_AM()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:05:00 IST" name="confif_AM" finished-at="2023-05-30T13:05:00 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confif_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:05:00 IST" name="config_AC" finished-at="2023-05-30T13:05:02 IST" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.banking.Steller.Viewcustomer.ApplyDebitCardTest@459e9125]" started-at="2023-05-30T13:05:02 IST" name="config_AS" finished-at="2023-05-30T13:05:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- com.banking.Steller.Viewcustomer.ApplyDebitCardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

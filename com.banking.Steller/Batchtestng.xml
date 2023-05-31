@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="com.banking.Steller.Viewcustomer.OpenAccountTest"/>
+      <class name="com.banking.Steller.Viewcustomer.ApproveAccountTest"/>
+      <class name="com.banking.Steller.Viewcustomer.CreditcustomerTest"/>
+      <class name="com.banking.Steller.Viewcustomer.ViewAccountTest"/>
+        <class name="com.banking.Steller.Viewcustomer.InternetBankingTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
