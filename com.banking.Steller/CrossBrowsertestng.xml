@@ -20,5 +20,6 @@
 		  <classes>
 			  <class name="com.banking.Steller.Viewcustomer.ViewAccountTest"/>
 		  </classes>
+		  //welcome
  </test> <!-- Test -->
 </suite> <!-- Suite -->
